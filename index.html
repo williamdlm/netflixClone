@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 
     <!-- Responsive -->
     <link rel="stylesheet" href="styles/responsive.css" />
 
-    <!-- own css -->
+    <!-- Own css -->
     <link rel="stylesheet" href="styles/own/owl.carousel.min.css" />
     <link rel="stylesheet" href="styles/own/owl.theme.default.min.css" />
 
@@ -17,14 +18,28 @@
   <body>
     <header>
       <div class="container">
-        <h2 class="logo">Netflix</h2>
+        <!-- <div><h2 class="logo">Netflix</h2></div> -->
         <nav>
+          <img class="logo" src="img/netflix_logo.svg" alt="Netflix logo" />
           <a href="#">Home</a>
           <a href="#">TV Shows</a>
           <a href="#">Movies</a>
           <a href="#">New & Popular</a>
           <a href="#"> My List</a>
+          <strong>
+            Navegation
+            <i class="fas fa-sort-down"></i>
+          </strong>
         </nav>
+        <div class="navLeft">
+          <ul>
+            <li><i class="fas fa-search"></i></li>
+            <li>KIDS</li>
+            <li><i class="fas fa-gift"></i></li>
+            <li><i class="fas fa-bell"></i></li>
+            <li class="avatar"><img src="img/avatar.png" alt="avatar" /></li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -44,16 +59,46 @@
           <div class="buttons">
             <button role="button" class="button">
               <i class="fas fa-play"></i>
-              Assistir agora
+              Play
             </button>
             <button role="button" class="button">
               <i class="fas fa-info-circle"></i>
-              Mais informações
+              More info
             </button>
           </div>
         </div>
       </div>
     </main>
+    <div class="type"><strong>My list</strong></div>
+    <div class="carouselMovies">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List1.webp" /></h4>
+        </div>
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List2.jpg" /></h4>
+        </div>
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List3.jpg" /></h4>
+        </div>
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List4.jpg" /></h4>
+        </div>
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List5.jpg" /></h4>
+        </div>
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List6.jpg" /></h4>
+        </div>
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List7.jpg" /></h4>
+        </div>
+        <div class="item">
+          <h4><img class="boxMovie" src="img/List8.jpg" /></h4>
+        </div>
+      </div>
+    </div>
+    <div class="type"><strong>Popular on Netflix</strong></div>
     <div class="carouselMovies">
       <div class="owl-carousel owl-theme">
         <div class="item">

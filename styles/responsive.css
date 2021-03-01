@@ -1,17 +1,17 @@
-@media screen and (max-width: 700px) {
-  header .container {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 920px) {
+  header nav strong {
+    display: block;
   }
 
-  .button {
-    margin-top: 5px;
-    width: 300px;
+  header nav a {
+    display: none;
   }
-}
 
-@media screen and (min-width: 1000px) {
-  .description {
-    width: 50%;
+  .mainMovie .title {
+    font-size: 2rem;
+  }
+
+  .mainMovie .description {
+    font-size: 0.75rem;
   }
 }
